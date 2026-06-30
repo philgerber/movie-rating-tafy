@@ -32,7 +32,13 @@ export class DashboardPage {
       imageUrl: 'https://example.com/parasite.jpg',
     },
   ]);
- 
 
+  doRateUp(movie: Movie) {
+    console.log("UP", movie);
+  }
 
+  doRateDown(movie: Movie) {
+    console.log("DOWN", movie);
+  }
+  
 }
